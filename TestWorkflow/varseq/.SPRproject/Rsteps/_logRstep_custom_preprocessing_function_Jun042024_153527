@@ -1,0 +1,18 @@
+Time: Jun042024_1535s27
+
+
+## Code: 
+```{r, eval=FALSE} 
+filterFct <- function(fq, cutoff = 20, Nexceptions = 0) {
+    qcount <- rowSums(as(quality(fq), "matrix") <= cutoff, na.rm = TRUE)
+    fq[qcount <= Nexceptions]
+}
+save(list = ls(), file = "param/customFCT.RData")
+```
+
+
+## Stdout: 
+```{r, eval=FALSE}
+NULL
+``` 
+

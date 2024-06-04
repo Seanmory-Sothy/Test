@@ -1,0 +1,25 @@
+##  defaultid 
+
+Time: Jun042024_1536s30
+
+
+### Code: 
+```{r, eval=FALSE} 
+bwa index -a bwtsw ./data/tair10.fasta 
+```
+
+
+### Stdout: 
+```{r, eval=FALSE}
+[bwa_index] Pack FASTA... 0.01 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=1400000, availableWord=1778956
+[bwt_gen] Finished constructing BWT in 5 iterations.
+[bwa_index] 0.22 seconds elapse.
+[bwa_index] Update BWT... 0.00 sec
+[bwa_index] Pack forward-only FASTA... 0.00 sec
+[bwa_index] Construct SA from BWT and Occ... 0.07 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index -a bwtsw ./data/tair10.fasta
+[main] Real time: 0.319 sec; CPU: 0.303 sec
+```

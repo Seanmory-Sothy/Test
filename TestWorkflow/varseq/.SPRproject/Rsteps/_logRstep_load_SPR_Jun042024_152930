@@ -1,0 +1,22 @@
+Time: Jun042024_1529s30
+
+
+## Code: 
+```{r, eval=FALSE} 
+library(systemPipeR)
+```
+
+
+## Stdout: 
+```{r, eval=FALSE}
+ [1] "systemPipeR"          "ShortRead"            "GenomicAlignments"   
+ [4] "SummarizedExperiment" "Biobase"              "MatrixGenerics"      
+ [7] "matrixStats"          "BiocParallel"         "Rsamtools"           
+[10] "Biostrings"           "XVector"              "GenomicRanges"       
+[13] "GenomeInfoDb"         "IRanges"              "S4Vectors"           
+[16] "stats4"               "BiocGenerics"         "BiocStyle"           
+[19] "nvimcom"              "stats"                "graphics"            
+[22] "grDevices"            "utils"                "datasets"            
+[25] "colorout"             "methods"              "base"                
+``` 
+
